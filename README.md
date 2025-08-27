@@ -13,7 +13,6 @@ The developer assume no responsibility for trading losses, technical failures, o
 - **Flexible Position Selection**: Monitor all positions or select specific ones
 - **Advanced Order Execution**: Multiple strategies for improved liquidity handling
 - **Dry Run Mode**: Test the bot without executing real trades
-- **Comprehensive Logging**: Detailed logs and execution history
 - **CSV Export**: Convert execution logs to CSV format for analysis
 - **Real-time Monitoring**: Continuous position monitoring with configurable intervals
 
