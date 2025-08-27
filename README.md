@@ -1,6 +1,6 @@
 # Polymarket Stop Loss Bot
 
-Polymarket currently lacks stop-loss functionality, a fundamental risk management tool standard across virtually all major trading platforms. This critical omission forces users to seek alternative loss mitigation strategies such as hedging, yet these workarounds fail to adequately address numerous scenarios where losses could be minimized. This repository solves this problem by utilizing Polymarket's API infrastructure to deliver automated stop-loss protection featuring sophisticated position selection and continuous monitoring capabilities.
+Polymarket currently lacks stop-loss functionality, a fundamental risk management tool standard across virtually all major trading platforms. This critical omission forces users to seek alternative loss mitigation strategies such as hedging, yet these workarounds fail to adequately address numerous scenarios where losses could be minimized. This repository solves this problem by utilizing Polymarket's API infrastructure to deliver automated stop-loss protection.
 
 ## Legal Disclaimer
 
