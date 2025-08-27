@@ -65,8 +65,6 @@ Add your wallet address to `user.txt`:
 0xYourPolygonWalletAddressHere
 ```
 
-This should be the same address associated with your private key.
-
 ## Configuration Options
 
 ### Stop Loss Settings
