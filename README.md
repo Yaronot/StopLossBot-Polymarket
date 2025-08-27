@@ -140,3 +140,9 @@ This creates `stop_loss_executions_summary.csv` with:
 - Re-run position selection to update
 - Check if position values fell below minimum threshold
 
+
+## Screenshots Of User Interface
+
+![Screenshot 2025-08-28 at 0 44 54](https://github.com/user-attachments/assets/76b7b03a-7a98-455e-965b-b8ceb4265cef)
+
+
