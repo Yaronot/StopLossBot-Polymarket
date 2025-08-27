@@ -15,6 +15,7 @@ The developer assume no responsibility for trading losses, technical failures, o
 - **Dry Run Mode**: Test the bot without executing real trades
 - **CSV Export**: Convert execution logs to CSV format for analysis
 - **Real-time Monitoring**: Continuous position monitoring with configurable intervals
+- **Telegram Notifications (Optional)**: Integrate a Telegram bot to send updates whenever a stop-loss action is triggered.
 
 ## Prerequisites
 
