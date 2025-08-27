@@ -117,8 +117,6 @@ This creates `stop_loss_executions_summary.csv` with:
 
 ## Troubleshooting
 
-## Common Issues
-
 **"No positions found"**
 - Verify wallet address in `user.txt` is correct
 - Ensure positions exist and are above minimum threshold
