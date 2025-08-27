@@ -113,7 +113,7 @@ python polymarket_stop_loss_hybrid_specificPosition.py
 
 **At last, when all configurations have been adjusted according to your needs - start monitoring**: Begin continuous monitoring with current settings (Option 1)
 
-### Risk Management
+## Risk Management
 
 1. **Stop Loss Threshold**: Consider market volatility when setting percentages
 2. **Position Size**: Larger positions may have execution challenges
@@ -137,7 +137,7 @@ This creates `stop_loss_executions_summary.csv` with:
 
 ## Troubleshooting
 
-### Common Issues
+## Common Issues
 
 **"No positions found"**
 - Verify wallet address in `user.txt` is correct
