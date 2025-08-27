@@ -71,12 +71,19 @@ python polymarket_stop_loss_hybrid_specificPosition.py
 
 ### Monitoring Configuration
 - **Position Selection** (Option 7): Choose specific positions to monitor. Bot displays all available positions and their index.
+  
   a. for several positions - Enter position numbers separated by commas (e.g., "1,3,5")
+  
   b. Enter position numbers separated by commas (e.g., "1,3,5")
+  
   c. Use "all" to select everything
+  
   d. Use "clear" to deselect everything
+  
   e. Use "done" to finish selection
+  
   f. Selections are automatically saved to `selected_positions.json`
+  
 - **Monitor All Positions** (Option 8): Switch to monitoring every position
 - **Clear Monitoring** (Option 11): Set monitoring mode to none
 
