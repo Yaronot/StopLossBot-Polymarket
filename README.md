@@ -52,10 +52,8 @@ touch .env
 
 Add your private key to `.env`:
 ```
-PRIVATE_KEY=your_polygon_private_key_here
+PRIVATE_KEY=0x1234567890abcdef
 ```
-
-**Security Note**: Never commit your `.env` file to version control. The private key should be the same one associated with your Polymarket trading wallet.
 
 #### Create `user.txt` file:
 ```bash
