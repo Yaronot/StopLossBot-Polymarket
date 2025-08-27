@@ -7,16 +7,6 @@ Polymarket currently lacks stop-loss functionality, a fundamental risk managemen
 **US RESIDENTS ARE PROHIBITED FROM TRADING ON POLYMARKET.** This tool is intended for educational purposes. Use at your own risk and ensure compliance with your local regulations.
 The developer assume no responsibility for trading losses, technical failures, or legal issues arising from use of this software.
 
-## Features
-
-- **Hybrid Architecture**: Uses Data API for reliable position monitoring + CLOB client for order execution
-- **Flexible Position Selection**: Monitor all positions or select specific ones
-- **Advanced Order Execution**: Multiple strategies for improved liquidity handling
-- **Dry Run Mode**: Test the bot without executing real trades
-- **CSV Export**: Convert execution logs to CSV format for analysis
-- **Real-time Monitoring**: Continuous position monitoring with configurable intervals
-- **Telegram Notifications (Optional)**: Integrate a Telegram bot to send updates whenever a stop-loss action is triggered.
-
 ## Prerequisites
 
 ### System Requirements
