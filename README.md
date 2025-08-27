@@ -143,17 +143,17 @@ This creates `stop_loss_executions_summary.csv` with:
 
 ## Screenshots Of User Interface
 
-System initialization 
+<h3 align="center">System initialization</h3>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/976b4b0b-4c30-4383-a06b-6d863f04247e" width="600"/>
 </p>
 
-System running 
+<h3 align="center">System running</h3>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/26ecb802-789d-42f5-9cb7-ee3826a78e54" width="600"/>
 </p>
 
-Telegram bot notifies about triggered stop-loss action
+<h3 align="center">Telegram bot notifies about triggered stop-loss action</h3>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/76b7b03a-7a98-455e-965b-b8ceb4265cef" width="600"/>
 </p>
