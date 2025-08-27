@@ -33,7 +33,7 @@ The developer assume no responsibility for trading losses, technical failures, o
 
 ### 1. Clone Repository
 ```bash
-git clone [<repository-url>](https://github.com/Yaronot/StopLossBot-Polymarket)
+git clone https://github.com/Yaronot/StopLossBot-Polymarket
 cd polymarket-stop-loss-bot
 ```
 
