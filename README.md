@@ -85,58 +85,33 @@ TELEGRAM_CHAT_ID=123456789
 python polymarket_stop_loss_hybrid_specificPosition.py
 ```
 
-### Interactive Menu Options
+### Interactive Menu Options (Menu 1-11)
 
-1. **Start monitoring**: Begin continuous monitoring with current settings
-2. **Change stop loss percentage**: Adjust loss threshold (1-100%)
-3. **Change check interval**: Modify monitoring frequency (minimum 10 seconds)
-4. **Change minimum position value**: Set minimum USD value for monitoring
-5. **Toggle dry run mode**: Switch between simulation and live trading
-6. **Test connection**: Verify API connectivity and display positions
-7. **Select positions**: Choose specific positions for monitoring
-8. **Monitor all positions**: Switch to monitoring every position
-9. **View configuration**: Display current settings and monitoring status
-10. **Exit**: Stop the bot
-11. **Clear monitoring**: Set monitoring mode to none
+### Basic Stop Loss Settings
+- **Stop Loss Percentage** (Option 2): Threshold for triggering stop loss
+- **Check Interval** (Option 3): Time between position checks in seconds
+- **Minimum Position Value** (Option 4a): Only monitor positions above this USD value
+- **Stop Loss Price Threshold** (Option 4b): Absolute price level to trigger stop loss
 
-### Position Selection Process
+### Execution Mode
+- **Dry Run Toggle** (Option 5): Switch between simulation and live trading
 
-When using option 7 (Select positions):
-1. Bot displays all available positions with numbers
-2. Enter position numbers separated by commas (e.g., "1,3,5")
-3. Use "all" to select everything
-4. Use "clear" to deselect everything
-5. Use "done" to finish selection
-6. Selections are automatically saved to `selected_positions.json`
+### Monitoring Configuration
+- **Position Selection** (Option 7): Choose specific positions to monitor. Bot displays all available positions and their index.
+  a. for several positions - Enter position numbers separated by commas (e.g., "1,3,5")
+  b. Enter position numbers separated by commas (e.g., "1,3,5")
+  c. Use "all" to select everything
+  d. Use "clear" to deselect everything
+  e. Use "done" to finish selection
+  f. Selections are automatically saved to `selected_positions.json`
+- **Monitor All Positions** (Option 8): Switch to monitoring every position
+- **Clear Monitoring** (Option 11): Set monitoring mode to none
 
-## File Structure
+### Utility Functions
+- **Test Connection** (Option 6): View current positions and test API
+- **View Configuration** (Option 9): Display current monitoring setup
 
-```
-project-directory/
-├── polymarket_stop_loss_hybrid_specificPosition.py  # Main bot script
-├── convert_stop_loss_to_csv.sh                      # CSV conversion utility
-├── user.txt                                         # Your wallet address
-├── .env                                             # Private key (create this)
-├── selected_positions.json                          # Saved position selections
-├── polymarket_stop_loss.log                         # Bot activity log
-└── stop_loss_executions_*.json                      # Execution history
-```
-
-## Important Configuration Notes
-
-### Before First Use
-
-1. **Wallet Setup**: Ensure your wallet address in `user.txt` matches your private key in `.env`
-2. **Test Mode**: Always start with dry run mode enabled
-3. **Position Selection**: The bot defaults to monitoring NO positions for safety
-4. **Balance Check**: Verify sufficient USDC balance for gas fees
-
-### Security Best Practices
-
-1. **Private Key Protection**: Never share or commit your `.env` file
-2. **Start Small**: Begin with small positions and conservative settings
-3. **Monitor Logs**: Regularly check `polymarket_stop_loss.log` for issues
-4. **Backup Selections**: Keep a backup of important position selections
+**At last, when all configurations have been adjusted according to your needs - start monitoring**: Begin continuous monitoring with current settings (Option 1)
 
 ### Risk Management
 
