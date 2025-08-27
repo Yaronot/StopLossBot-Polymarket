@@ -51,23 +51,6 @@ TELEGRAM_CHAT_ID=123456789
 
 
 
-## Configuration Options
-
-### Stop Loss Settings
-- **Stop Loss Percentage**: Threshold for triggering stop loss (default: 20%)
-- **Check Interval**: Time between position checks in seconds (default: 60s)
-- **Minimum Position Value**: Only monitor positions above this USD value (default: $0.1)
-- **Max Slippage**: Maximum acceptable price slippage (default: 5%)
-
-### Monitoring Modes
-1. **None**: Bot monitors no positions (default for safety)
-2. **Selected**: Monitor only user-selected positions
-3. **All**: Monitor every position above minimum threshold
-
-### Execution Modes
-- **Dry Run**: Simulate trades without execution (recommended for testing)
-- **Live Trading**: Execute actual stop loss orders
-
 ## Usage
 
 ### Starting the Bot
