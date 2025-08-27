@@ -143,6 +143,14 @@ This creates `stop_loss_executions_summary.csv` with:
 
 ## Screenshots Of User Interface
 
-![Screenshot 2025-08-28 at 0 44 54](https://github.com/user-attachments/assets/76b7b03a-7a98-455e-965b-b8ceb4265cef)
+<table>
+  <tr>
+    <td><img src=![Screenshot 2025-08-28 at 0 44 54](https://github.com/user-attachments/assets/76b7b03a-7a98-455e-965b-b8ceb4265cef)
+    <td><img src=<img width="730" height="558" alt="צילום מסך 2025-08-28 ב-0 41 39" src="https://github.com/user-attachments/assets/976b4b0b-4c30-4383-a06b-6d863f04247e" />
+    <td><img src=<img width="892" height="214" alt="צילום מסך 2025-08-28 ב-0 42 49" src="https://github.com/user-attachments/assets/26ecb802-789d-42f5-9cb7-ee3826a78e54" />
+  </tr>
+</table>
+
+
 
 
