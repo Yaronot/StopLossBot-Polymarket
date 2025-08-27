@@ -216,10 +216,38 @@ class PolymarketDataClient:
 class PolymarketTradingClient:
     """Fixed client for executing orders using CLOB"""
 
-    def __init__(self):
+    def __init__(self, user_file: str = "user.txt"):
         self.client = None
-        self.POLYMARKET_PROXY_ADDRESS = '0x8f87964FB57640a6fC09964123c6212c2c5c07B9'
+        self.POLYMARKET_PROXY_ADDRESS = self._load_user_address(user_file)
         self._initialize_client()
+
+    def _load_user_address(self, user_file: str) -> str:
+        """Load user address from file"""
+        try:
+            if not os.path.exists(user_file):
+                # Create example file
+                with open(user_file, 'w') as f:
+                    f.write("0x1234567890123456789012345678901234567890\n")
+                    f.write("# Replace with your actual Polygon wallet address\n")
+
+                print(f"📁 Created {user_file} with example address")
+                print(f"✏️  Please edit {user_file} with your wallet address")
+                return ""
+
+            with open(user_file, 'r') as f:
+                lines = f.readlines()
+
+            # Get first non-comment line
+            for line in lines:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    return line
+
+            return ""
+
+        except Exception as e:
+            print(f"❌ Error loading user address: {e}")
+            return ""
 
     def _initialize_client(self):
         """Initialize CLOB client with proper configuration"""
