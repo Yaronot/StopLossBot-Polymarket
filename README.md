@@ -5,6 +5,8 @@ Polymarket currently lacks stop-loss functionality, a fundamental risk managemen
 ## Legal Disclaimer
 
 **US RESIDENTS ARE PROHIBITED FROM TRADING ON POLYMARKET.** This tool is intended for educational purposes and international users only. Use at your own risk and ensure compliance with your local regulations.
+This software is provided for educational purposes only. Users are responsible for their own trading decisions and compliance with applicable laws and regulations.
+The developer assume no responsibility for trading losses, technical failures, or legal issues arising from use of this software.
 
 ## Features
 
@@ -217,9 +219,3 @@ For detailed debugging, check:
 - US residents cannot use this tool legally
 - Users must comply with local financial regulations
 - Tool provided as-is without warranty
-
-## Disclaimer
-
-This software is provided for educational purposes only. Trading involves substantial risk and may not be suitable for all investors. Past performance does not guarantee future results. Users are responsible for their own trading decisions and compliance with applicable laws and regulations.
-
-The developers assume no responsibility for trading losses, technical failures, or legal issues arising from use of this software.
