@@ -45,22 +45,12 @@ pip install py-clob-client python-dotenv requests
 
 ### 3. Configuration Files Setup
 
-#### Create `.env` file:
-```bash
-touch .env
-```
-
-Add your private key to `.env`:
+#### Adjust `.env` file with your private key:
 ```
 PRIVATE_KEY=0x1234567890abcdef
 ```
 
-#### Create `user.txt` file:
-```bash
-touch user.txt
-```
-
-Add your wallet address to `user.txt`:
+#### Adjust `user.txt` file with your wallet address:
 ```
 0xYourPolygonWalletAddressHere
 ```
