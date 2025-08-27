@@ -54,6 +54,13 @@ PRIVATE_KEY=0x1234567890abcdef
 ```
 0xYourPolygonWalletAddressHere
 ```
+#### If you want to integrate a telegram bot that updates when action is triggered, uncomment TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID from .env (they're commented by default to make this capability optional) and adjust it to yours:
+```
+TELEGRAM_BOT_TOKEN=1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456
+TELEGRAM_CHAT_ID=123456789
+```
+
+
 
 ## Configuration Options
 
